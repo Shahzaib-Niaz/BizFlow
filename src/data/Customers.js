@@ -1,0 +1,42 @@
+export const customers = [
+  {
+    id: 1,
+    name: "Ahmed Khan",
+    email: "ahmed@example.com",
+    company: "TechNova",
+    status: "Active",
+    joined: "2026-09-10",
+  },
+  {
+    id: 2,
+    name: "Sarah Williams",
+    email: "sarah@example.com",
+    company: "Bright Solutions",
+    status: "Active",
+    joined: "2026-09-08",
+  },
+  {
+    id: 3,
+    name: "Michael Brown",
+    email: "michael@example.com",
+    company: "Digital Works",
+    status: "Inactive",
+    joined: "2026-08-28",
+  },
+  {
+    id: 4,
+    name: "Emma Wilson",
+    email: "emma@example.com",
+    company: "Creative Labs",
+    status: "Active",
+    joined: "2026-08-20",
+  },
+  {
+    id: 5,
+    name: "Daniel Smith",
+    email: "daniel@example.com",
+    company: "Acme Corporation",
+    status: "Inactive",
+    joined: "2026-08-15",
+  },
+];

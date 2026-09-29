@@ -1,0 +1,162 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ahmed Khan",
+      "email": "ahmed@example.com",
+      "company": "TechNova",
+      "status": "Active",
+      "joined": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Williams",
+      "email": "sarah@example.com",
+      "company": "Bright Solutions",
+      "status": "Active",
+      "joined": "2026-09-08"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "email": "michael@example.com",
+      "company": "Digital Works",
+      "status": "Inactive",
+      "joined": "2026-08-28"
+    },
+    {
+      "id": 4,
+      "name": "Emma Wilson",
+      "email": "emma@example.com",
+      "company": "Creative Labs",
+      "status": "Active",
+      "joined": "2026-08-20"
+    },
+    {
+      "id": 5,
+      "name": "Daniel Smith",
+      "email": "daniel@example.com",
+      "company": "Acme Corporation",
+      "status": "Inactive",
+      "joined": "2026-08-15"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Website Development",
+      "category": "Development",
+      "price": 2500,
+      "stock": 12,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "UI/UX Design",
+      "category": "Design",
+      "price": 1200,
+      "stock": 8,
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "SEO Package",
+      "category": "Marketing",
+      "price": 850,
+      "stock": 15,
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Website Maintenance",
+      "category": "Development",
+      "price": 450,
+      "stock": 5,
+      "status": "Inactive"
+    },
+    {
+      "id": 5,
+      "name": "Social Media Management",
+      "category": "Marketing",
+      "price": 700,
+      "stock": 10,
+      "status": "Active"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "total": 2500,
+      "status": "Completed",
+      "date": "2026-09-20"
+    },
+    {
+      "id": 1002,
+      "customerId": 2,
+      "productId": 2,
+      "quantity": 2,
+      "total": 2400,
+      "status": "Processing",
+      "date": "2026-09-21"
+    },
+    {
+      "id": 1003,
+      "customerId": 3,
+      "productId": 3,
+      "quantity": 1,
+      "total": 850,
+      "status": "Pending",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 1004,
+      "customerId": 4,
+      "productId": 4,
+      "quantity": 3,
+      "total": 1350,
+      "status": "Completed",
+      "date": "2026-09-23"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete website homepage",
+      "customerId": 1,
+      "assignee": "Ahmed",
+      "priority": "High",
+      "dueDate": "2026-09-28",
+      "status": "In Progress"
+    },
+    {
+      "id": 2,
+      "title": "Prepare SEO report",
+      "customerId": 2,
+      "assignee": "Sarah",
+      "priority": "Medium",
+      "dueDate": "2026-09-29",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "title": "Finalize UI design",
+      "customerId": 3,
+      "assignee": "Michael",
+      "priority": "High",
+      "dueDate": "2026-09-30",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "title": "Update website content",
+      "customerId": 4,
+      "assignee": "Emma",
+      "priority": "Low",
+      "dueDate": "2026-10-02",
+      "status": "Pending"
+    }
+  ]
+}

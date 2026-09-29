@@ -1,0 +1,38 @@
+export const orders = [
+  {
+    id: 1001,
+    customerId: 1,
+    productId: 1,
+    quantity: 1,
+    total: 2500,
+    status: "Completed",
+    date: "2026-09-20",
+  },
+  {
+    id: 1002,
+    customerId: 2,
+    productId: 2,
+    quantity: 2,
+    total: 2400,
+    status: "Processing",
+    date: "2026-09-21",
+  },
+  {
+    id: 1003,
+    customerId: 3,
+    productId: 3,
+    quantity: 1,
+    total: 850,
+    status: "Pending",
+    date: "2026-09-22",
+  },
+  {
+    id: 1004,
+    customerId: 4,
+    productId: 4,
+    quantity: 3,
+    total: 1350,
+    status: "Completed",
+    date: "2026-09-23",
+  },
+];

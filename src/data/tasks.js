@@ -1,0 +1,38 @@
+export const tasks = [
+  {
+    id: 1,
+    title: "Complete website homepage",
+    customerId: 1,
+    assignee: "Ahmed",
+    priority: "High",
+    dueDate: "2026-09-28",
+    status: "In Progress",
+  },
+  {
+    id: 2,
+    title: "Prepare SEO report",
+    customerId: 2,
+    assignee: "Sarah",
+    priority: "Medium",
+    dueDate: "2026-09-29",
+    status: "Pending",
+  },
+  {
+    id: 3,
+    title: "Finalize UI design",
+    customerId: 3,
+    assignee: "Michael",
+    priority: "High",
+    dueDate: "2026-09-30",
+    status: "Completed",
+  },
+  {
+    id: 4,
+    title: "Update website content",
+    customerId: 4,
+    assignee: "Emma",
+    priority: "Low",
+    dueDate: "2026-10-02",
+    status: "Pending",
+  },
+];

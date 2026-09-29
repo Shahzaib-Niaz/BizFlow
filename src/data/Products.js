@@ -1,0 +1,42 @@
+export const products = [
+  {
+    id: 1,
+    name: "Website Development",
+    category: "Development",
+    price: 2500,
+    stock: 12,
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "SEO Package",
+    category: "Marketing",
+    price: 850,
+    stock: 8,
+    status: "Active",
+  },
+  {
+    id: 3,
+    name: "UI/UX Design",
+    category: "Design",
+    price: 1200,
+    stock: 5,
+    status: "Active",
+  },
+  {
+    id: 4,
+    name: "Maintenance Package",
+    category: "Support",
+    price: 450,
+    stock: 0,
+    status: "Inactive",
+  },
+  {
+    id: 5,
+    name: "Social Media Management",
+    category: "Marketing",
+    price: 650,
+    stock: 15,
+    status: "Active",
+  },
+];
